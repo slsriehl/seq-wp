@@ -1,0 +1,26 @@
+{
+  "name": "sequelize-blog-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slsriehl/seq-wp.git"
+  },
+  "author": "Sarah Schieffer Riehl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slsriehl/seq-wp/issues"
+  },
+  "homepage": "https://github.com/slsriehl/seq-wp#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mysql": "^2.13.0",
+    "node": "0.0.0",
+    "sequelize": "^3.30.4",
+    "sequelize-cli": "^2.7.0"
+  }
+}
