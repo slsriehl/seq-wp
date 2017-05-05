@@ -11,7 +11,7 @@ module.exports = function(sequelize, DataTypes) {
   }, {
     classMethods: {
       associate: function(models) {
-				Context.hasMany(models.Item)
+				Context.hasMany(models.Task)
         Context.belongsTo(models.User, {
 					foreignKey: 'UserId',
 					onDelete: 'CASCADE'
