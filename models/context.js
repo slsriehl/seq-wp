@@ -16,7 +16,6 @@ module.exports = function(sequelize, DataTypes) {
 					foreignKey: 'UserId',
 					onDelete: 'CASCADE'
 				});
-				//Context.hasOne(models.User, {foreignKey: 'UserId', onDelete: 'CASCADE'});
         // associations can be defined here
       }
     }
